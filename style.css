@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+}
+.logo{
+    width: 20%;
+    cursor: pointer;
+}
+.logo img{
+    width: 80%;
+}
+.menu{
+    width: 50%;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40%;  
+}
+.menu ul li{
+    cursor: pointer;
+    border: 1px solid;
+    border-color: #575757;
+    padding: 1% 2%;
+    border-radius: 30%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.menu ul li:hover{
+    background-color: rgb(93, 153, 241);
+}
+.starter{
+    margin-top: 80px;
+}
+.flexible-container{
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 60px;
+    letter-spacing: -0.02em; 
+    color: #575757;   
+}
+span{
+    color: tomato;
+}
+.color1{
+    color: #828282;
+}
+.order-button{
+    text-decoration: none;
+    padding: 20px 30px;
+    background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
+    border-radius: 50px;
+    color: white;
+    font-weight: 550;
+    font-size: 15px;
+}
+.order-button:hover{
+    background-image: linear-gradient(to right, rgb(115, 194, 247),blue);
+}
+.food{
+    width: 50%;
+    padding-left: 7%;
+    padding-right: 3%;
+}
+.food img{
+    width: 100%;
+}
+.about-us{
+    background-image: url(images/7.png);
+    background-size: 100%;
+    background-position: center;   
+    margin: 3% 0;
+}
+p{
+    color: #18191F;
+    margin-bottom: 10%;
+}
+.person{
+    width: 50%;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.person img{
+    width: 100%;
+    height: 100vh;
+    
+}
+.small{
+    font-size: 36px;
+    color: #707070;
+}
+.color2{
+    color: #252525;
+}
+.info{
+    width: 50%;
+    margin: 10%;
+}
+.contact-button{
+    text-decoration: none;
+    padding: 20px 30px;
+    background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
+    border-radius: 50px;
+    color: white;
+    font-weight: 550;
+    font-size: 15px;
+}
+.contact-button:hover{
+    background-image: linear-gradient(to right, rgb(115, 194, 247),blue);
+}
+.center{
+    text-align: center;
+    margin: 5% 25%;
+}
+.recipies-item{
+    width: 100%;
+    margin: 2%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    padding: 2%;   
+}
+.recipies-item img{
+    width: 100%;
+}
+.followers{
+    margin: 2%;
+    padding: 64px 165px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.subscription{
+    width: 100%;
+    text-align: center;
+}
+.little{
+    font-size: 10px;
+}
+.footer{
+    background-color: #0B0D17;
+    background-size: 100%;
+    text-align: center;
+    align-items: center;
+}
+.smaller{
+    font-size: 30px;
+}
+.health{
+    color: #FFFFFF;
+}
+.end{
+    height: 50%;
+    padding-top: 1%;
+}
+.social-icon{
+    margin: 0 45%;
+    justify-content: space-between;
+}
+a img{
+    width: 30px;
+    margin-bottom: 25px; 
+}
